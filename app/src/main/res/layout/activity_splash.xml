@@ -2,6 +2,7 @@
     android:layout_width="match_parent"
     android:id="@+id/main"
     android:layout_height="match_parent"
+    android:elevation="3dp"
 
     >
 
@@ -11,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:foreground="@drawable/background_gradient"
         android:src="@drawable/splash_screen"
         />
 
@@ -26,7 +28,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Live Your Perfect"
-            android:textSize="30sp"
+            android:gravity="center"
+            android:textSize="50sp"
+
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
@@ -35,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
-            android:text="Smart, gorgeous and fashionable collection makes you cool"
+            android:gravity="center"
+            android:text="Smart, gorgeous and fashionable\ncollection makes you cool"
             android:textSize="14sp"
             android:textColor="@android:color/white"
             android:alpha="0.7" />
@@ -44,9 +49,10 @@
         <Button
             android:id="@+id/btn_start"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:backgroundTint="@color/button_color"
             android:text="Start"
+            android:textSize="@dimen/text_regular_3x"
             android:textColor="@android:color/white" />
     </LinearLayout>
 </RelativeLayout>

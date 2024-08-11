@@ -7,13 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.thiha.ecommerceview.R
-import com.thiha.ecommerceview.databinding.ActivityMainBinding
+
+import com.thiha.ecommerceview.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
-    private lateinit var binding : ActivityMainBinding
+    private lateinit var binding : ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding =  ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
         enableEdgeToEdge()
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

@@ -16,7 +16,6 @@
         android:padding="3dp"
         android:layout_margin="@dimen/margin_medium_2"
         android:src="@drawable/baseline_arrow_back_ios_24"
-        android:background="@drawable/filter_button_background"
         android:backgroundTint="@color/grey"/>
 
 
