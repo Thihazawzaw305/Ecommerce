@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="70dp"
+    android:layout_marginStart="@dimen/margin_medium_2"
+    android:background="@drawable/brands_chips_background"
+    >
+
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent_color"
+        android:text="5.5"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/text_regular_3x"
+        />
+
+
+
+</RelativeLayout>

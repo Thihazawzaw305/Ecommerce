@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683967272764",
+    "project_id": "ecommerce-view-3aac1",
+    "storage_bucket": "ecommerce-view-3aac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683967272764:android:1743fdfdf8d07ab584b039",
+        "android_client_info": {
+          "package_name": "com.thiha.ecommerceview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV868YDieMctNhX0GDjhZ7F2Zxlf9K1uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

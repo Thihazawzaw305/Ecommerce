@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/baseline_favorite_24" android:state_checked="true"/>
+    <item android:drawable="@drawable/baseline_favorite_border_24" android:state_checked="false"/>
+</selector>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="ExtraText">-->
+    <!--    <item android:drawable="@drawable/baseline_favorite_border_24"-->
+    <!--    android:state_checked="false" />-->
+    <!--    <item android:drawable="@drawable/baseline_favorite_24"-->
+    <!--        android:state_checked="true"-->
+    <!--    android:tint="@color/button_color" />  </selector>-->
+
+    <!--    &lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+    <!--    &lt;!&ndash;<selector xmlns:android="http://schemas.android.com/apk/res/android" >&ndash;&gt;-->
+    <!--    &lt;!&ndash;    <item android:drawable="@drawable/baseline_favorite_border_24"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:state_checked="false"/>&ndash;&gt;-->
+    <!--    &lt;!&ndash;    <item android:drawable="@drawable/baseline_favorite_24"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:state_checked="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <item android:drawable="@drawable/baseline_favorite_border_24">&ndash;&gt;-->
+    <!--    &lt;!&ndash;        <color android:color="@color/button_color"/>&ndash;&gt;-->
+    <!--    &lt;!&ndash;    </item>&ndash;&gt;-->
+    <!--    &lt;!&ndash;</selector>&ndash;&gt;-->

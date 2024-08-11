@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/search_box_background"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    android:backgroundTint="@color/grey"
+    android:layout_height="250dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvItemPrice"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$250.00"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold"
+        android:textColor="@color/accent_color"/>
+
+<!--    <androidx.appcompat.widget.AppCompatCheckBox-->
+<!--        android:id="@+id/cbFav"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:gravity="center"-->
+<!--        android:checked="true"-->
+<!--        android:button="@drawable/fav_button_background"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_margin="@dimen/margin_medium_2"/>-->
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbFav"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:checked="true"
+        android:button="@drawable/fav_button_background"
+        android:buttonTint="@color/button_color"
+    android:layout_alignParentEnd="true"
+    android:layout_margin="@dimen/margin_medium_2"/>
+
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nike_db"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvItemName"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Nike Air Vapormax 2020"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold"
+        android:textColor="@color/accent_color"/>
+
+    <FrameLayout
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/accent_color"
+        android:background="@drawable/filter_button_background">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:tint="@color/primary_color"
+            android:src="@drawable/cart"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
